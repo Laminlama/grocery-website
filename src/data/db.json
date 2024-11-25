@@ -1,0 +1,804 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Yogurt",
+      "image": "product image 1.jpg",
+      "category": "yogurt",
+      "price": 3.5,
+      "popularity": 5,
+      "stock": 10
+    },
+    {
+      "id": "2",
+      "title": "Bread",
+      "image": "product image 2.jpg",
+      "category": "",
+      "price": 4.5,
+      "popularity": 4,
+      "stock": 20
+    },
+    {
+      "id": "3",
+      "title": "Nuts",
+      "image": "product image 3.jpg",
+      "category": "",
+      "price": 7.5,
+      "popularity": 3,
+      "stock": 5
+    },
+    {
+      "id": "4",
+      "title": "Milk",
+      "image": "product image 4.jpg",
+      "category": "",
+      "price": 15,
+      "popularity": 2,
+      "stock": 15
+    },
+    {
+      "id": "5",
+      "title": "Onion",
+      "image": "product image 5.jpg",
+      "category": "",
+      "price": 5,
+      "popularity": 1,
+      "stock": 0
+    },
+    {
+      "id": "6",
+      "title": "Coke",
+      "image": "product image 6.jpg",
+      "category": "",
+      "price": 8.5,
+      "popularity": 20,
+      "stock": 20
+    },
+    {
+      "id": "7",
+      "title": "chocolate",
+      "image": "product image 7.jpg",
+      "category": "",
+      "price": 6.7,
+      "popularity": 5,
+      "stock": 500
+    },
+    {
+      "id": "8",
+      "title": "nutella",
+      "image": "product image 8.jpg",
+      "category": "",
+      "price": 6.3,
+      "popularity": 5,
+      "stock": 500
+    },
+    {
+      "id": "9",
+      "title": "capsicum",
+      "image": "product image 9.jpg",
+      "category": "yogurt",
+      "price": 6.7,
+      "popularity": 5,
+      "stock": 500
+    },
+    {
+      "id": "10",
+      "title": "Eggs",
+      "image": "product image 10.jpg",
+      "category": "",
+      "price": 7.8,
+      "popularity": 5,
+      "stock": 500
+    },
+    {
+      "id": "11",
+      "title": "Carrot",
+      "image": "product image 11.jpg",
+      "category": "",
+      "price": 7.9,
+      "popularity": 5,
+      "stock": 500
+    },
+    {
+      "id": "12",
+      "title": "cow milk",
+      "image": "product image 12.jpg",
+      "category": "yogurt",
+      "price": 6.9,
+      "popularity": 5,
+      "stock": 500
+    },
+    {
+      "id": "13",
+      "title": "spinach",
+      "image": "product image 13.jpg",
+      "category": "",
+      "price": 11,
+      "popularity": 5,
+      "stock": 500
+    },
+    {
+      "id": "14",
+      "title": "Tomato",
+      "image": "product image 14.jpg",
+      "category": "",
+      "price": 12.5,
+      "popularity": 5,
+      "stock": 500
+    },
+    {
+      "id": "15",
+      "title": "chips",
+      "image": "product image 15.jpg",
+      "category": "",
+      "price": 16.7,
+      "popularity": 5,
+      "stock": 500
+    },
+    {
+      "id": "16",
+      "title": "garlic",
+      "image": "product image 16.jpg",
+      "category": "",
+      "price": 16.7,
+      "popularity": 5,
+      "stock": 500
+    },
+    {
+      "id": "17",
+      "title": "Brinjal",
+      "image": "product image 17.jpg",
+      "category": "",
+      "price": 13.4,
+      "popularity": 5,
+      "stock": 500
+    },
+    {
+      "id": "18",
+      "title": "avacado",
+      "image": "product image 18.jpg",
+      "category": "",
+      "price": 13.4,
+      "popularity": 5,
+      "stock": 500
+    }
+  ],
+  "orders": [
+    {
+      "data": {
+        "emailAddress": "bc22@gmail.com",
+        "firstName": "Bojan",
+        "lastName": "Cesnak",
+        "company": "BC",
+        "address": "B2",
+        "apartment": "123",
+        "city": "Belgrade",
+        "country": "United States",
+        "region": "Serbia",
+        "postalCode": "11080",
+        "phone": "06123123132",
+        "paymentType": "on",
+        "cardNumber": "12313212",
+        "nameOnCard": "123123",
+        "expirationDate": "123123",
+        "cvc": "12312"
+      },
+      "products": [
+        {
+          "id": "2xsblack",
+          "image": "product image 2.jpg",
+          "title": "Luxury Black Clothing",
+          "category": "luxury-collection",
+          "price": 1050,
+          "quantity": 3,
+          "size": "xs",
+          "color": "black",
+          "popularity": 4,
+          "stock": 20
+        }
+      ],
+      "subtotal": 3150,
+      "user": {
+        "email": "bc22@gmail.com",
+        "id": 2
+      },
+      "id": "1"
+    },
+    {
+      "data": {
+        "emailAddress": "bc22@gmail.com",
+        "firstName": "Bojan",
+        "lastName": "Cesnak",
+        "company": "asd",
+        "address": "asd",
+        "apartment": "123",
+        "city": "Belgrade",
+        "country": "United States",
+        "region": "123",
+        "postalCode": "123",
+        "phone": "123",
+        "paymentType": "on",
+        "cardNumber": "123",
+        "nameOnCard": "123",
+        "expirationDate": "123",
+        "cvc": "123"
+      },
+      "products": [
+        {
+          "id": "2xlblack",
+          "image": "product image 2.jpg",
+          "title": "Luxury Black Clothing",
+          "category": "luxury-collection",
+          "price": 1050,
+          "quantity": 3,
+          "size": "xl",
+          "color": "black",
+          "popularity": 4,
+          "stock": 20
+        }
+      ],
+      "subtotal": 3150,
+      "user": {
+        "email": "bc22@gmail.com",
+        "id": 2
+      },
+      "orderStatus": "Processing",
+      "orderDate": "2024-08-31T06:54:38.482Z",
+      "id": "2"
+    },
+    {
+      "data": {
+        "emailAddress": "a@gmail.com",
+        "firstName": "Aca",
+        "lastName": "Kuzma",
+        "company": "Bojan Cesnak",
+        "address": "Marka Markovic 22",
+        "apartment": "123",
+        "city": "Belgrade",
+        "country": "United States",
+        "region": "Serbia",
+        "postalCode": "11080",
+        "phone": "06123123132",
+        "paymentType": "on",
+        "cardNumber": "123",
+        "nameOnCard": "123",
+        "expirationDate": "123",
+        "cvc": "123"
+      },
+      "products": [
+        {
+          "id": "1xlblack",
+          "image": "product image 1.jpg",
+          "title": "Luxury Dress",
+          "category": "special-edition",
+          "price": 3500,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 5,
+          "stock": 10
+        },
+        {
+          "id": "4xlblack",
+          "image": "product image 4.jpg",
+          "title": "Special Brown Dress",
+          "category": "unique-collection",
+          "price": 2500,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 2,
+          "stock": 15
+        }
+      ],
+      "subtotal": 6000,
+      "user": {
+        "email": "aleksandarkuzmanovic021@gmail.com",
+        "id": 1
+      },
+      "orderStatus": "Processing",
+      "orderDate": "2024-08-31T07:01:32.959Z",
+      "id": "3"
+    },
+    {
+      "data": {
+        "emailAddress": "a@gmail.com",
+        "firstName": "Aca",
+        "lastName": "Kuzma",
+        "company": "123",
+        "address": "123",
+        "apartment": "123",
+        "city": "Belgrade",
+        "country": "United States",
+        "region": "Serbia",
+        "postalCode": "11080",
+        "phone": "123",
+        "paymentType": "on",
+        "cardNumber": "123",
+        "nameOnCard": "123",
+        "expirationDate": "123",
+        "cvc": "123"
+      },
+      "products": [
+        {
+          "id": "1xlblack",
+          "image": "product image 1.jpg",
+          "title": "Luxury Dress",
+          "category": "special-edition",
+          "price": 3500,
+          "quantity": 2,
+          "size": "xl",
+          "color": "black",
+          "popularity": 5,
+          "stock": 10
+        }
+      ],
+      "subtotal": 7000,
+      "user": {
+        "email": "aleksandarkuzmanovic021@gmail.com",
+        "id": 1
+      },
+      "orderStatus": "Processing",
+      "orderDate": "2024-08-31T07:07:37.188Z",
+      "id": "4"
+    },
+    {
+      "data": {
+        "emailAddress": "bc22@gmail.com",
+        "firstName": "Bojan",
+        "lastName": "Cesnak",
+        "company": "Bojan Cesnak",
+        "address": "Marka Markovic 22",
+        "apartment": "123",
+        "city": "Belgrade",
+        "country": "United States",
+        "region": "Serbia",
+        "postalCode": "11080",
+        "phone": "06123123132",
+        "paymentType": "on",
+        "cardNumber": "123",
+        "nameOnCard": "123",
+        "expirationDate": "123",
+        "cvc": "123"
+      },
+      "products": [
+        {
+          "id": "6xlblack",
+          "image": "product image 6.jpg",
+          "title": "Super Luxury Dress",
+          "category": "luxury-collection",
+          "price": 8500,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 20,
+          "stock": 20
+        },
+        {
+          "id": "5xlblack",
+          "image": "product image 5.jpg",
+          "title": "Special Luxury Dress",
+          "category": "unique-collection",
+          "price": 5200,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 1,
+          "stock": 0
+        },
+        {
+          "id": "4xlblack",
+          "image": "product image 4.jpg",
+          "title": "Special Brown Dress",
+          "category": "unique-collection",
+          "price": 2500,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 2,
+          "stock": 15
+        },
+        {
+          "id": "3xlblack",
+          "image": "product image 3.jpg",
+          "title": "Luxury Blue Dress",
+          "category": "summer-edition",
+          "price": 5000,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 3,
+          "stock": 5
+        },
+        {
+          "id": "2xlblack",
+          "image": "product image 2.jpg",
+          "title": "Luxury Black Clothing",
+          "category": "luxury-collection",
+          "price": 1050,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 4,
+          "stock": 20
+        },
+        {
+          "id": "1xlblack",
+          "image": "product image 1.jpg",
+          "title": "Luxury Dress",
+          "category": "special-edition",
+          "price": 3500,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 5,
+          "stock": 10
+        }
+      ],
+      "subtotal": 25750,
+      "user": {
+        "email": "bc22@gmail.com",
+        "id": 2
+      },
+      "orderStatus": "Processing",
+      "orderDate": "2024-08-31T07:12:42.805Z",
+      "id": "5"
+    },
+    {
+      "data": {
+        "emailAddress": "a@gmail.com",
+        "firstName": "Aca",
+        "lastName": "Cesnak",
+        "company": "Bojan Cesnak",
+        "address": "Marka Markovic 22",
+        "apartment": "123",
+        "city": "Belgrade",
+        "country": "United States",
+        "region": "Serbia",
+        "postalCode": "11080",
+        "phone": "06123123132",
+        "paymentType": "on",
+        "cardNumber": "123",
+        "nameOnCard": "321",
+        "expirationDate": "123",
+        "cvc": "321"
+      },
+      "products": [
+        {
+          "id": "2xlblack",
+          "image": "product image 2.jpg",
+          "title": "Luxury Black Clothing",
+          "category": "luxury-collection",
+          "price": 1050,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 4,
+          "stock": 20
+        }
+      ],
+      "subtotal": 1050,
+      "orderStatus": "Processing",
+      "orderDate": "8/31/2024",
+      "id": "6"
+    },
+    {
+      "data": {
+        "emailAddress": "a@gmail.com",
+        "firstName": "Aca",
+        "lastName": "Cesnak",
+        "company": "Bojan Cesnak",
+        "address": "Marka Markovic 22",
+        "apartment": "123",
+        "city": "asd",
+        "country": "United States",
+        "region": "Serbia",
+        "postalCode": "11080",
+        "phone": "06123123132",
+        "paymentType": "on",
+        "cardNumber": "123",
+        "nameOnCard": "321",
+        "expirationDate": "123",
+        "cvc": "321"
+      },
+      "products": [
+        {
+          "id": "2xlblack",
+          "image": "product image 2.jpg",
+          "title": "Luxury Black Clothing",
+          "category": "luxury-collection",
+          "price": 1050,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 4,
+          "stock": 20
+        }
+      ],
+      "subtotal": 1050,
+      "user": {
+        "email": "a@gmail.com",
+        "id": 3
+      },
+      "orderStatus": "Processing",
+      "orderDate": "2024-08-31T07:47:13.076Z",
+      "id": "7"
+    },
+    {
+      "data": {
+        "emailAddress": "lebronjames@gmail.com",
+        "firstName": "Lebron",
+        "lastName": "James",
+        "company": "NBA",
+        "address": "NBA Street",
+        "apartment": "212",
+        "city": "Cleveland",
+        "country": "United States",
+        "region": "USA",
+        "postalCode": "1123012",
+        "phone": "123123",
+        "paymentType": "on",
+        "cardNumber": "123",
+        "nameOnCard": "123",
+        "expirationDate": "123",
+        "cvc": "123"
+      },
+      "products": [
+        {
+          "id": "2smblue",
+          "image": "product image 2.jpg",
+          "title": "Luxury Black Clothing",
+          "category": "luxury-collection",
+          "price": 1050,
+          "quantity": 3,
+          "size": "sm",
+          "color": "blue",
+          "popularity": 4,
+          "stock": 20
+        }
+      ],
+      "subtotal": 3150,
+      "user": {
+        "email": "lebronjames@gmail.com",
+        "id": 4
+      },
+      "orderStatus": "Processing",
+      "orderDate": "2024-08-31T09:54:07.549Z",
+      "id": "8"
+    },
+    {
+      "id": "1469",
+      "data": {
+        "emailAddress": "lamalamin1111@gmail.com",
+        "firstName": "lamin",
+        "lastName": "lama",
+        "company": "LPU",
+        "address": "lpu",
+        "apartment": "gh-4",
+        "city": "jalandhar",
+        "country": "India",
+        "region": "Punjab",
+        "postalCode": "144401",
+        "phone": "+919366979519",
+        "paymentType": "on",
+        "cardNumber": "1u381y38y4",
+        "nameOnCard": "13344",
+        "expirationDate": "022 ",
+        "cvc": "34"
+      },
+      "products": [
+        {
+          "id": "1",
+          "image": "product image 1.jpg",
+          "title": "Yogurt",
+          "category": "",
+          "price": 22.5,
+          "quantity": 1,
+          "popularity": 5,
+          "stock": 10
+        }
+      ],
+      "subtotal": 22.5,
+      "orderStatus": "Processing",
+      "orderDate": "11/21/2024"
+    },
+    {
+      "id": "8895",
+      "data": {
+        "emailAddress": "lamalamin1111@gmail.com",
+        "firstName": "lamin",
+        "lastName": "lama",
+        "company": "LPU",
+        "address": "lpu",
+        "apartment": "gh-4",
+        "city": "jalandhar",
+        "country": "India",
+        "region": "Punjab",
+        "postalCode": "144401",
+        "phone": "+919366979519",
+        "paymentType": "on",
+        "cardNumber": "1u381y38y4",
+        "nameOnCard": "13344",
+        "expirationDate": "022 ",
+        "cvc": "34"
+      },
+      "products": [
+        {
+          "id": "1",
+          "image": "product image 1.jpg",
+          "title": "Yogurt",
+          "category": "",
+          "price": 22.5,
+          "quantity": 2,
+          "popularity": 5,
+          "stock": 10
+        }
+      ],
+      "subtotal": 45,
+      "orderStatus": "Processing",
+      "orderDate": "11/21/2024"
+    },
+    {
+      "id": "699a",
+      "data": {
+        "emailAddress": "lamalamin1111@gmail.com",
+        "firstName": "lamin",
+        "lastName": "lama",
+        "company": "LPU",
+        "address": "lpu",
+        "apartment": "gh-4",
+        "city": "jalandhar",
+        "country": "India",
+        "region": "Punjab",
+        "postalCode": "144401",
+        "phone": "+919366979519",
+        "paymentType": "on",
+        "cardNumber": "1u381y38y4",
+        "nameOnCard": "13344",
+        "expirationDate": "022 ",
+        "cvc": "34"
+      },
+      "products": [
+        {
+          "id": "1",
+          "image": "product image 1.jpg",
+          "title": "Yogurt",
+          "category": "",
+          "price": 22.5,
+          "quantity": 3,
+          "popularity": 5,
+          "stock": 10
+        }
+      ],
+      "subtotal": 67.5,
+      "orderStatus": "Processing",
+      "orderDate": "11/21/2024"
+    },
+    {
+      "id": "03e4",
+      "data": {
+        "emailAddress": "lamalamin1111@gmail.com",
+        "firstName": "lamin",
+        "lastName": "lama",
+        "company": "LPU",
+        "address": "lpu",
+        "apartment": "gh-4",
+        "city": "jalandhar",
+        "country": "India",
+        "region": "Punjab",
+        "postalCode": "144401",
+        "phone": "+919366979519",
+        "paymentType": "on",
+        "cardNumber": " 1235r24966",
+        "nameOnCard": "lamin",
+        "expirationDate": "2003",
+        "cvc": "334"
+      },
+      "products": [
+        {
+          "id": "18",
+          "image": "product image 18.jpg",
+          "title": "avacado",
+          "category": "",
+          "price": 33.42,
+          "quantity": 1,
+          "popularity": 5,
+          "stock": 500
+        }
+      ],
+      "subtotal": 33.42,
+      "orderStatus": "Processing",
+      "orderDate": "11/22/2024"
+    },
+    {
+      "id": "25bb",
+      "data": {
+        "emailAddress": "lamalamin1111@gmail.com",
+        "firstName": "lamin",
+        "lastName": "lama",
+        "company": "LPU",
+        "address": "lpu",
+        "apartment": "gh-4",
+        "city": "jalandhar",
+        "country": "India",
+        "region": "Punjab",
+        "postalCode": "144401",
+        "phone": "+919366979519",
+        "paymentType": "on",
+        "cardNumber": " 1235r24966",
+        "nameOnCard": "lamin",
+        "expirationDate": "2003",
+        "cvc": "334"
+      },
+      "products": [
+        {
+          "id": "1",
+          "image": "product image 1.jpg",
+          "title": "Yogurt",
+          "category": "yogurt",
+          "price": 21.77,
+          "quantity": 1,
+          "popularity": 5,
+          "stock": 10
+        }
+      ],
+      "subtotal": 21.77,
+      "orderStatus": "Processing",
+      "orderDate": "11/22/2024"
+    }
+  ],
+  "users": [
+    {
+      "name": "Aleksandar",
+      "lastname": "Kuzmanovic",
+      "email": "aleksandarkuzmanovic021@gmail.com",
+      "password": "1233214321",
+      "id": "1"
+    },
+    {
+      "name": "Bojan",
+      "lastname": "Cesnak",
+      "email": "bc22@gmail.com",
+      "password": "123321",
+      "confirmPassword": "123321",
+      "id": "2"
+    },
+    {
+      "name": "A",
+      "lastname": "A",
+      "email": "a@gmail.com",
+      "password": "123321",
+      "confirmPassword": "123321",
+      "id": "3"
+    },
+    {
+      "name": "Lebron",
+      "lastname": "James",
+      "email": "lebronjames@gmail.com",
+      "password": "1233214321",
+      "confirmPassword": "1233214321",
+      "id": "4"
+    },
+    {
+      "name": "lamin",
+      "lastname": "lama",
+      "email": "lams@email.com",
+      "password": "123",
+      "id": "e6f7"
+    },
+    {
+      "name": "sara",
+      "lastname": "kumari",
+      "email": "sara@gmail.com",
+      "password": "123",
+      "id": "52f8"
+    },
+    {
+      "name": "jhanvi",
+      "lastname": "kapoor",
+      "email": "jhanvi@gmail.com",
+      "password": "1234",
+      "id": "22ef"
+    }
+  ]
+}
